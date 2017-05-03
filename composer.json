@@ -1,15 +1,19 @@
 {
-    "name": "naeikindus/symfony3-custom-coding-standard",
+    "name": "decyben/symfony3-custom-coding-standard",
     "type": "coding-standard",
     "description": "Customized CodeSniffer ruleset for the Symfony3 projects",
     "keywords": ["Symfony3", "coding standard", "phpcs"],
-    "homepage": "https://github.com/Endouble/Symfony3-coding-standard",
+    "homepage": "https://github.com/NaeiKinDus/Symfony3-coding-standard",
     "license": "MIT",
     "authors": [
         {
             "name": "David Joos",
             "email": "david.joos@escapestudios.com"
-        }
+        },
+	{
+	    "name": "Florian Lavidalie",
+	    "email": "florian.lavidalie@decyben.com"
+	}
     ],
     "extra": {
         "branch-alias": {
