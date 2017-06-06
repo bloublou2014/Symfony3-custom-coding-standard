@@ -15,7 +15,7 @@ This standard can be installed with the [Composer](https://getcomposer.org/) dep
  "repositories": [
         {
             "type": "vcs",
-            "url": "git@github.com:Endouble/Symfony3-custom-coding-standard"
+            "url": "git@github.com:NaeiKinDus/Symfony3-custom-coding-standard"
         }
 ```
 
