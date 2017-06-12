@@ -1,5 +1,5 @@
 {
-    "name": "endouble/symfony3-custom-coding-standard",
+    "name": "naeikindus/symfony3-custom-coding-standard",
     "type": "coding-standard",
     "description": "Customized CodeSniffer ruleset for the Symfony3 projects",
     "keywords": ["Symfony3", "coding standard", "phpcs"],
