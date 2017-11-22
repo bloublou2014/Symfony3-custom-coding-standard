@@ -1,6 +1,6 @@
 # Symfony3 Custom PHP CodeSniffer Coding Standard
 
-This is a fork of https://github.com/djoos/Symfony2-coding-standard
+This is a fork of Endouble/Symfony3-custom-coding-standard
 These are the Symfony2 standards, but tweaked to meet some needs we have in our CSB project, for example to comply with 
 [PSR-12](https://github.com/php-fig/fig-standards/blob/master/proposed/extended-coding-style-guide.md) for PHP 7
 
