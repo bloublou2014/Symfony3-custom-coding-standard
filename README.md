@@ -23,7 +23,7 @@ This standard can be installed with the [Composer](https://getcomposer.org/) dep
 
 ```json
  "require-dev": {
-        "endouble/symfony3-custom-coding-standard": "^2.10"
+        "decyben/symfony3-custom-coding-standard": "^1.0"
     },
 ```
 
