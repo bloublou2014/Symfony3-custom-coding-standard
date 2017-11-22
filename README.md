@@ -10,7 +10,7 @@ These are the Symfony2 standards, but tweaked to meet some needs we have in our 
 
 This standard can be installed with the [Composer](https://getcomposer.org/) dependency manager.
 
-1. Add the repository to your composer.json: 
+a. Add the repository to your composer.json: 
 ```json
  "repositories": [
         {
@@ -19,7 +19,7 @@ This standard can be installed with the [Composer](https://getcomposer.org/) dep
         }
 ```
 
-2. Add the coding standard as a dependency of your project
+b. Add the coding standard as a dependency of your project
 
 ```json
  "require-dev": {
@@ -27,24 +27,37 @@ This standard can be installed with the [Composer](https://getcomposer.org/) dep
     },
 ```
 
-3. Add the coding standard to the PHP_CodeSniffer install path 
+### Git clone
+
+This standard can also be simply cloned from github.
+
+a. Clone it from github to a local directory (ie. /opt/git/SF-Standards)
+
+---
+
+1. Add the coding standard to the PHP_CodeSniffer install path 
 
 The path is relative to the php_codesniffer install path. This is important to make it work both in your vagrant, local machine and PHPStorm
 
-        bin/phpcs --config-set installed_paths ../../endouble/symfony3-custom-coding-standard
+        bin/phpcs --config-set installed_paths <your install directory>
 
-4. Check the installed coding standards for "Symfony2"
+2. Check the installed coding standards for "Symfony2"
 
         bin/phpcs -i
 
-5. Done!
+3. Done!
 
        bin/phpcs --standard=Symfony3Custom /path/to/code
        
-6. (optional) Set up PHPStorm
+4. (optional) Set up PHPStorm
 
 - configure code sniffer under Languages & Frameworks -> PHP -> Code Sniffer
 - Go to Editor -> Inspections -> PHP Code sniffer, refresh the standards and select Symfony3Custom
+
+5. (optional) Customize PHPCS
+
+- ```phpcs --config-set colors 1``` to enable color output
+- ```phpcs --config-set default_standard Symfony3Custom``` to set this project's rules as the default ones
        
 ## Customizations
 
