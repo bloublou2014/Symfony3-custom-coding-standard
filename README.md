@@ -41,7 +41,7 @@ The path is relative to the php_codesniffer install path. This is important to m
 
         bin/phpcs --config-set installed_paths <your install directory>
 
-2. Check the installed coding standards for "Symfony2"
+2. Check the installed coding standards for "Symfony3"
 
         bin/phpcs -i
 
